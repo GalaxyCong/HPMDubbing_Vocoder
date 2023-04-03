@@ -44,3 +44,8 @@ One can download the checkpoints of generator (e.g., g_05000000) within the list
     tensorboard --logdir My_vocoder_V2C/logs/ --port=[Your port]
     ```
 
+# References
+- [HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis](https://arxiv.org/pdf/2010.05646.pdf), J. Kong, *et al*. 
+
+
+# Citation
