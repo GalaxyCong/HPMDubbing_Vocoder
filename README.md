@@ -16,21 +16,30 @@ One can download the checkpoints of generator (e.g., g_05000000) within the list
 ## Training
 1. Please run
     ```
-    python train_hifigan_16KHz.py --config config_v1_hifigan_16.json
+    python train_V2C_HiFiGAN.py --config config_V2C_22050Hz.json
+    ```
+    or
+    ```
+    python train_hifigan_16KHz.py --config config_Chem_16KHz.json
     ```
     
 ## Inference
 1. inference.py : wav -> mel -> wav
     ```
-    python inference.py --checkpoint_file /data/conggaoxiang/vocoder/hifi-gan-master/My16_test1_hifigan/g_HiFi16
+    python inference.py --checkpoint_file [Your path of checkpoint_file]
     ```
 2. inference_e2e.py :  mel -> wav
     ```
-    python inference_e2e.py --checkpoint_file /data/conggaoxiang/vocoder/hifi-gan-master/My16_test1_hifigan/g_HiFi16
+    python inference_e2e.py --checkpoint_file [Your path of checkpoint_file]
     ```
     
 
 ## tensorboard
     ```
-    tensorboard --logdir My16_test1_hifigan/logs/ --port=6005
+    tensorboard --logdir HifiGAN_16/logs/ --port=[Your port]
     ```
+    or 
+    ```
+    tensorboard --logdir My_vocoder_V2C/logs/ --port=[Your port]
+    ```
+
