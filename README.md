@@ -7,10 +7,10 @@ We provide the pretrained models.
 One can download the checkpoints of generator (e.g., g_05000000) within the listed folders.
 
 
-|Folder Name|Sampling Rate|Mel band|fmax|Params.|Dataset|Fine-Tuned|
+|Folder Name|Sampling Rate|Hop Length|Filter Length|Params.|Dataset|Fine-Tuned|
 |------|---|---|---|---|------|---|
-|[HPM_Chem](https://drive.google.com/file/d/1MIIAHpePjB4tndkERW1rx0AVKiAKMo2K/view?usp=sharing)|16000 Hz|80|8000|55M|LibriTTS|No|
-|[HPM_V2C]()|22050 Hz|80|8000|56M|LibriTTS|No|
+|[HPM_Chem](https://drive.google.com/file/d/1MIIAHpePjB4tndkERW1rx0AVKiAKMo2K/view?usp=sharing)|16000 Hz|160|1024|55M|LibriTTS|No|
+|[HPM_V2C]()|22050 Hz|220|1024|56M|LibriTTS|No|
 
 
 ## Training
