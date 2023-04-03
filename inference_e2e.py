@@ -65,7 +65,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_mels_dir', default='/data/conggaoxiang/V2C/V2C_Code/example_V2C22050_256/MovieAnimation/mel')
     parser.add_argument('--output_dir', default='/data/conggaoxiang/V2C/V2C_Code/example_V2C16_HiFiGAN_E2_energyO_220/test_220')
-    parser.add_argument('--checkpoint_file', default='/data/conggaoxiang/vocoder/hifi-gan-master/My16_test1_hifigan_V2C/g_00105000')
+    parser.add_argument('--checkpoint_file', default='/data/conggaoxiang/vocoder/hifi-gan/My16_test1_hifigan_V2C/g_00105000')
     a = parser.parse_args()
 
     config_file = os.path.join(os.path.split(a.checkpoint_file)[0], 'config.json')
