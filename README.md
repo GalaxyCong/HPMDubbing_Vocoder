@@ -35,6 +35,7 @@ One can download the checkpoints of generator (e.g., g_05000000) within the list
     
 
 ## tensorboard
+1. Please run
     ```
     tensorboard --logdir HifiGAN_16/logs/ --port=[Your port]
     ```
