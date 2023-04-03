@@ -10,7 +10,7 @@ One can download the checkpoints of generator (e.g., g_05000000) within the list
 |Folder Name|Sampling Rate|Hop Length|Segment Size|Win Length|Params.|Dataset|Fine-Tuned|
 |------|---|---|---|---|---|------|---|
 |[HPM_Chem](https://drive.google.com/file/d/1MIIAHpePjB4tndkERW1rx0AVKiAKMo2K/view?usp=sharing)|16000 Hz|160|8000|640|55M|LibriTTS|No|
-|[HPM_V2C]()|22050 Hz|220|9900|880|58M|LibriTTS|No|
+|[HPM_V2C](https://drive.google.com/file/d/1pqkMY_JVti1k-rB0qz6JsRoei12uknq9/view?usp=share_link)|22050 Hz|220|9900|880|58M|LibriTTS|No|
 
 
 ## Training
