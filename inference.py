@@ -79,11 +79,11 @@ def main():
     print('Initializing Inference Process..')
 
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--input_wavs_dir', default='/data/conggaoxiang/jyt/noise_16000_3320/chem')
-    # parser.add_argument('--output_dir', default='/data/conggaoxiang/jyt/noise_16000_3320_hifigan')
+    # parser.add_argument('--input_wavs_dir', default='/data/conggaoxiang/noise_16000_3320/chem')
+    # parser.add_argument('--output_dir', default='/data/conggaoxiang/noise_16000_3320_hifigan')
     parser.add_argument('--input_wavs_dir', default='/data/conggaoxiang/vocoder')
-    parser.add_argument('--output_dir', default='/data/conggaoxiang/vocoder/hifi-gan-master/checkpoint_hifigan_offical/My_MOD_MPD_16KHz')  # MOD_V1
-    parser.add_argument('--checkpoint_file', default='/data/conggaoxiang/vocoder/hifi-gan-master/My_MOD_MPD_16KHz_Repeat2/g_02060000')
+    parser.add_argument('--output_dir', default='/data/conggaoxiang/vocoder/hifi-gan/checkpoint_hifigan_offical/My_MOD_MPD_16KHz')  # MOD_V1
+    parser.add_argument('--checkpoint_file', default='/data/conggaoxiang/vocoder/hifi-gan/My_MOD_MPD_16KHz_Repeat2/g_02060000')
     a = parser.parse_args()
 
     config_file = os.path.join(os.path.split(a.checkpoint_file)[0], 'config.json')
